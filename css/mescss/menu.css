@@ -1,0 +1,71 @@
+.nav-toggle {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.nav-toggle-bar, .nav-toggle-bar::before,.nav-toggle-bar::after {
+    content:"";
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+
+.nav-toggle-bar::before{
+    top: -10px;
+
+}
+.nav-toggle-bar::after{
+    top: 10px;
+
+}
+
+
+.menu {
+    visibility: hidden;
+    background-color: midnightblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(200px);
+    transition: transform 1s;
+
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-open .menu {
+    visibility: visible;
+    transform: translateX(0);
+}
