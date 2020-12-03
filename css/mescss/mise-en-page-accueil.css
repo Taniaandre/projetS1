@@ -1,0 +1,13 @@
+body>header>h1>.logo>a {
+    display: inline-block;
+    width: 261px;
+    height: 33px;
+    background-image: url(../img/Header/logo.png);
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: #192DB7;
+}
