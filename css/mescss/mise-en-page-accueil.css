@@ -105,7 +105,7 @@ body>div.haut-page-accueil>div.bandeau-bienvenue {
     border-top: 10px solid #3D50D7;
 }
 
-body>main>p {
+body>main.fond>p {
 
     width: 291px;
     margin-bottom: 58px;
@@ -266,7 +266,7 @@ footer>address.contact-mmi.module-footer>a {
 
 
 
-main {
+main.fond {
     height: 1110px;
     background-color: #192DB7;
 }

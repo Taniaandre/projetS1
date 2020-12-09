@@ -8,14 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/mise-en-page-accueil.css">
     <title>Réduire sa pollution numérique</title>
 </head>
 <body>
-<header>
+<header class="marge gradient">
     <h1> <span><a href="a-propos.html" align="left">Infos</a></span>
-        <span><a href="index.html" align="center"> HyperConnexion</a></span> </h1>
+        <span class="logo"><a href="index.html"> HyperConnexion</a></span> </h1>
 
-    <h1><a href="">Menu Mobile</a></h1>
+    <!-- <h1><a href="">Menu Mobile</a></h1> -->
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
@@ -112,7 +113,6 @@
 
 </article>
 
-
 <footer>
     <div class="mentions module-footer">
         <p> André Tania A1</p>
@@ -120,13 +120,14 @@
             d’un exercice pédagogique au
             département MMI Montbéliard.</p>
     </div>
-    <div class="contact-mmi module-footer">
-        <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="http://mmimontbeliard.com/">MMI</a></li>
-        </ul>
-    </div>
+    <address class="contact-mmi module-footer">
+
+        <a class="contact" href="contact.html">Contact</a>
+        <a href="http://mmimontbeliard.com/"><div class="mmi"><img src="img/Footer/MMi_logo.svg" width="40" height="40" alt="Logo MMI"></div> </a>
+
+    </address>
 </footer>
+
 
 </body>
 </html>
