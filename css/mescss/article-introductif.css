@@ -111,10 +111,39 @@ body>div.haut-de-page>div.encadre-chapo>p {
 
 }
 
+.encadre-galerie {
+    margin-top: 500px;
+    margin-left: -18px;
+
+}
+
+.div-galerie {
+    display: inline-block;
+    position: relative;
+}
+
+.div-galerie .titre {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0 auto;
+    left: 60px;
+    right: 0;
+    top : 490px;
+    color: #00F9DE;
+    width: 100%;
+}
+
+
+.intertitres.video {
+    margin-top: 250px;
+
+}
 article{
     margin: 10px;
 }
 
 footer {
-    margin-top:1076px;
+    margin-top:700px;
 }
