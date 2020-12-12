@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url(https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
-body {
-
-
-}
 
 
 @font-face {
@@ -27,4 +23,21 @@ body {
     font-weight: normal;
     font-style: normal;
 
+}
+
+
+body>article>div.lien {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+body>article>div.lien>a {
+    color: #00F9DE;
+
+}
+
+.lien {
+    float: right;
 }

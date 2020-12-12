@@ -1,4 +1,131 @@
 html {
-    height: 3425px;
+    height: 3207px;
     background-color: #192DB7;
+}
+body>div.haut-de-page>img {
+    width: 359px;
+    height: 156px;
+
+}
+
+.gradient {
+    border-image-source: linear-gradient(to right, #8E7AEB, #00F9DE);
+}
+
+.marge-bleue {
+    border-bottom: 8px solid #3D50D7;
+}
+
+
+p.titre-du-bandeau {
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin-left: -115px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+.bandeau-titre {
+    background : linear-gradient(#121634,#282F72);
+    width: 359px;
+    height: 70px;
+    margin-top: -5px;
+
+}
+
+
+
+body>div.haut-de-page>div.bandeau-titre>ul>li {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+body>div.haut-de-page>div.bandeau-titre {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+
+body>div.haut-de-page>div.bandeau-titre>ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+
+body>div.haut-de-page>div.encadre-chapo {
+
+    background-color: rgba(21, 33, 138, .75);
+    width: 327px;
+    height: 100px;
+    margin-left: 8px;
+    margin-top: -98px;
+    margin-bottom: 15px;
+    border: rgb(34, 0, 223) solid 8px;
+
+
+}
+
+body>div.haut-de-page>div.encadre-chapo>p {
+
+    font-size: 14px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+
+.intertitres {
+    display: inline-block;
+    background: linear-gradient(to right, #2815DD, #364AE0);
+    border: 1px solid rgb(34, 0, 223);
+    padding: 3px;
+    padding-left: 7px;
+    height: 20px;
+    width: 305px;
+    margin-left: -18px;
+}
+
+.images-articles{
+    box-shadow: -12px 12px 2px 1px rgba(89, 106, 255, 100);
+    border: 5px solid rgb(211, 211, 211);
+    margin-top: 45px;
+    margin-left: 12px;
+    margin-right: 48px;
+    margin-bottom: 65px;
+    width: 315px;
+    height: 170px;
+}
+
+
+.triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    border-left: 35px solid #95195B;
+    margin:-9px;
+
+}
+article{
+    margin: 10px;
+}
+
+footer {
+    margin-top: 203px;
 }

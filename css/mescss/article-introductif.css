@@ -20,13 +20,17 @@ h2 {
 
 }
 
+.marge-bleue {
+    border-bottom: 8px solid #3D50D7;
+}
+
 
 
 .bandeau-titre {
     background : linear-gradient(#121634,#282F72);
     width: 359px;
     height: 70px;
-    margin-top: 0;
+    margin-top: -5px;
 
 }
 
@@ -62,7 +66,7 @@ body>div.haut-de-page>div.encadre-chapo {
     width: 327px;
     height: 100px;
     margin-left: 8px;
-    margin-top: -90px;
+    margin-top: -98px;
     margin-bottom: 15px;
     border: rgb(34, 0, 223) solid 8px;
 
@@ -141,21 +145,6 @@ body>div.haut-de-page>div.encadre-chapo>p {
 
 }
 
-body>article>div.lien {
-    display: inline-block;
-    vertical-align: top;
-
-
-}
-
-body>article>div.lien>a {
-    color: #00F9DE;
-
-}
-
-.lien {
-    float: right;
-}
 
 article{
     margin: 10px;
