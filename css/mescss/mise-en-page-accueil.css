@@ -121,31 +121,28 @@ body>main.fond>p {
 }
 
 
-.marge-basse1 {
-    border-bottom: 18px solid #A59155;
-    margin-right: -13px;
+div.marge-basse1 {
+    background : linear-gradient(to right, #A59155, #907123);
+    padding-top : 19px;
+    width: 315px;
     margin-bottom: 100px;
-
-
 }
 
 
-
-.marge-basse2 {
-    border-bottom: 18px solid #068BEB;
-    margin-right: -13px;
+div.marge-basse2 {
+    background : linear-gradient(to right, #068BEB, #0269E9);
+    padding-top : 19px;
+    width: 315px;
     margin-bottom: 100px;
-
 }
 
 
-
-.marge-basse3 {
-    border-bottom: 18px solid #F8F8F8;
-    margin-right: -13px;
-
+div.marge-basse3 {
+    background : linear-gradient(to right, #F8F8F8, #7A89F8);
+    padding-top : 19px;
+    width: 315px;
+    margin-bottom: 100px;
 }
-
 
 p.gris {
     background : linear-gradient(#E8E8E8,#B9B9B9);
