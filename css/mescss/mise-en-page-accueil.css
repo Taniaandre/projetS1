@@ -9,6 +9,10 @@ body>header>h1>.logo>a {
 
 }
 
+.infos {
+    float: left;
+}
+
 header {
     background-color: #364AE0;
 
@@ -116,9 +120,6 @@ body>main.fond>p {
     padding-top : 4px;
 }
 
-div.marge-basse1 {
-
-}
 
 .marge-basse1 {
     border-bottom: 18px solid #A59155;
@@ -128,9 +129,6 @@ div.marge-basse1 {
 
 }
 
-div.marge-basse2 {
-
-}
 
 
 .marge-basse2 {
@@ -140,9 +138,6 @@ div.marge-basse2 {
 
 }
 
-div.marge-basse3 {
-
-}
 
 
 .marge-basse3 {

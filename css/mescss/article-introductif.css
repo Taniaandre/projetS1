@@ -141,6 +141,22 @@ body>div.haut-de-page>div.encadre-chapo>p {
 
 }
 
+body>article>div.lien {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+body>article>div.lien>a {
+    color: #00F9DE;
+
+}
+
+.lien {
+    float: right;
+}
+
 article{
     margin: 10px;
 }
