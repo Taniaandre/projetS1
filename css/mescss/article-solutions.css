@@ -1,0 +1,162 @@
+html {
+    height: 3686px;
+    background-color: #192DB7;
+}
+
+
+body>div.haut-de-page>img {
+    width: 359px;
+    height: 156px;
+
+}
+
+
+.marge-bleue {
+    border-bottom: 8px solid #3D50D7;
+}
+
+p.titre-du-bandeau {
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    color: #00EB31;
+    margin-left: -130px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.bandeau-titre {
+    background : linear-gradient(#121634,#282F72);
+    width: 359px;
+    height: 70px;
+    margin-top: -5px;
+
+}
+
+
+
+body>div.haut-de-page>div.bandeau-titre>ul>li {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+body>div.haut-de-page>div.bandeau-titre {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+
+body>div.haut-de-page>div.bandeau-titre>ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+
+body>div.haut-de-page>div.encadre-chapo {
+
+    background-color: rgba(21, 33, 138, .75);
+    width: 327px;
+    height: 100px;
+    margin-left: 8px;
+    margin-top: -98px;
+    margin-bottom: 15px;
+    border: rgb(34, 0, 223) solid 8px;
+
+
+}
+
+body>div.haut-de-page>div.encadre-chapo>p {
+
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+h3 {
+
+    margin-bottom: 25px;
+}
+
+
+.intertitres {
+    display: inline-block;
+    background: linear-gradient(to right, #2815DD, #364AE0);
+    border: 1px solid rgb(34, 0, 223);
+    padding: 3px;
+    padding-left: 7px;
+    height: 20px;
+    width: 305px;
+    margin-left: -18px;
+}
+
+.images-articles{
+    box-shadow: -12px 12px 2px 1px rgba(89, 106, 255, 100);
+    border: 5px solid rgb(211, 211, 211);
+    margin-top: 35px;
+    margin-left: 12px;
+    margin-right: 48px;
+    margin-bottom: 35px;
+    width: 315px;
+    height: 170px;
+}
+
+
+.triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
+    border-left: 35px solid #04BA49;
+    margin:-9px;
+
+}
+article{
+    margin: 10px;
+}
+
+article>ul{
+    list-style-type: none;
+    padding : 0;
+}
+
+article>ul>li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+img.encadre-intertitre {
+    margin-left: -20px;
+
+}
+
+.div-intertitres-2 {
+    display: inline-block;
+    position: relative;
+}
+
+.div-intertitres-2 .titre-2 {
+    z-index: 1;
+    position: absolute;
+    text-align: left;
+    font-family: 'Play', sans-serif;
+    margin: 0 auto;
+    top : -9px;
+    color: white;
+    width: 100%;
+}
+
+
+footer {
+    margin-top: 200px;
+}
