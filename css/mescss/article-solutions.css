@@ -160,3 +160,15 @@ img.encadre-intertitre {
 footer {
     margin-top: 200px;
 }
+
+div.edge {
+    background-image: url(../img/edge.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div.eye {
+    background-image: url(../img/eye.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}

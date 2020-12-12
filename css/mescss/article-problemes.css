@@ -126,6 +126,12 @@ article{
     margin: 10px;
 }
 
+div.head {
+    background-image: url(../img/head.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 footer {
     margin-top: 203px;
 }

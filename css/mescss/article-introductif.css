@@ -3,6 +3,13 @@ html {
     background-color: #192DB7;
 }
 
+article.fond-triangles {
+    background-image: url(../img/triangles-fond.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
 body>div.haut-de-page>img {
     width: 359px;
     height: 156px;
