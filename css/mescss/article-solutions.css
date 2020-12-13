@@ -134,6 +134,10 @@ article>ul>li{
     padding-top: 10px;
 }
 
+li.filet {
+    border-top: 1px solid #FFFFFF;
+    padding-top: 20px;
+}
 
 img.encadre-intertitre {
     margin-left: -20px;

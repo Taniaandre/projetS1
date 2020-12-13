@@ -3,6 +3,10 @@ html {
     background-color: #192DB7;
 }
 
+.gradient {
+    border-image-source: linear-gradient(to right, #8E7AEB, #00F9DE);
+}
+
 footer {
   margin-top: 538px;
 }
