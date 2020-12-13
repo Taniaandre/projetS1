@@ -73,14 +73,14 @@ body>div.haut-de-page>div.encadre-chapo {
 }
 
 body>div.haut-de-page>div.encadre-chapo>p {
-
+    color: #FFFFFF;
+    font-family: 'Play', sans-serif;
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 9px;
     text-align: center;
 }
 
 h3 {
-
     margin-bottom: 25px;
 }
 
@@ -89,11 +89,14 @@ h3 {
     display: inline-block;
     background: linear-gradient(to right, #2815DD, #364AE0);
     border: 1px solid rgb(34, 0, 223);
-    padding: 3px;
-    padding-left: 7px;
+    padding-top: 5px;
+    padding-left: 9px;
     height: 20px;
     width: 305px;
     margin-left: -18px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .images-articles{
@@ -114,14 +117,19 @@ h3 {
     height: 0;
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
-    border-top-width: 15px;
-    border-bottom-width: 15px;
     border-left: 35px solid #04BA49;
-    margin:-9px;
+    border-top-width: 14px;
+    border-bottom-width: 14px;
+    margin: -9px;
+    margin-left: -3px;
 
 }
+
 article{
     margin: 10px;
+    font-family: 'Play', sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
 }
 
 article>ul{
@@ -147,6 +155,10 @@ img.encadre-intertitre {
 .div-intertitres-2 {
     display: inline-block;
     position: relative;
+}
+
+h4 {
+    margin-top: 22px;
 }
 
 .div-intertitres-2 .titre-2 {

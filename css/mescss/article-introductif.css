@@ -16,21 +16,20 @@ body>div.haut-de-page>img {
 }
 
 
-h2 {
+.titre-du-bandeau {
     text-align: center;
     font-size: 14px;
-    margin-left: -130px;
-    margin-top: 25px;
+    margin-left: -120px;
+    margin-top: 20px;
 
-
+    color: #00F9DE;
+    font-family: 'Orbitron', sans-serif;
 
 }
 
 .marge-bleue {
     border-bottom: 8px solid #3D50D7;
 }
-
-
 
 .bandeau-titre {
     background : linear-gradient(#121634,#282F72);
@@ -45,8 +44,6 @@ h2 {
 body>div.haut-de-page>div.bandeau-titre>ul>li {
     display: inline-block;
     vertical-align: top;
-
-
 }
 
 body>div.haut-de-page>div.bandeau-titre {
@@ -61,10 +58,7 @@ body>div.haut-de-page>div.bandeau-titre>ul {
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
-
 }
-
-
 
 body>div.haut-de-page>div.encadre-chapo {
 
@@ -83,17 +77,22 @@ body>div.haut-de-page>div.encadre-chapo>p {
     margin: 12px;
     font-size: 14px;
     text-align: center;
+    font-family: 'Play', sans-serif;
+    color: #EDFA00;
 }
 
 .intertitres {
     display: inline-block;
     background: linear-gradient(to right, #2815DD, #364AE0);
     border: 1px solid #52009A;
-    padding: 3px;
+    padding-top: 4px;
     padding-left: 7px;
     height: 20px;
     width: 280px;
     margin-left: -18px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .images-articles{
@@ -118,10 +117,10 @@ body>div.haut-de-page>div.encadre-chapo>p {
     height: 0;
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
-    border-top-width: 13px;
-    border-bottom-width: 13px;
+    border-top-width: 12px;
+    border-bottom-width: 12px;
     border-left: 35px solid #2B9FE3;
-    margin:-6px;
+    margin: -8px;
 
 }
 
@@ -156,6 +155,8 @@ body>div.haut-de-page>div.encadre-chapo>p {
 
 article{
     margin: 10px;
+    font-family: 'Play', sans-serif;
+    color: #FFFFFF;
 }
 
 

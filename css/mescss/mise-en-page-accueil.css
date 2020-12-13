@@ -80,7 +80,7 @@ body>div.haut-page-accueil>div.bandeau-bienvenue>ul {
 .triangles2 {
     display: inline-block;
     vertical-align: top;
-    margin-left: -25px;
+    margin-left: -22px;
     height: 98px;
 
 }
@@ -89,11 +89,14 @@ h2 {
     text-align: center;
     margin-left: -18px;
     margin-top: 35px;
-
+    font-family: 'Comfortaa', sans-serif;
+    color: #162394;
+    font-size: 20px;
 }
 
 h3 {
     margin-bottom: 11px;
+
 }
 
 body>div.haut-page-accueil>img {
@@ -115,6 +118,9 @@ body>main.fond>p {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: -40px;
+    color: #F5FF00;
+    font-family: 'Play', sans-serif;
+    font-size: 14px;
 
 }
 
@@ -125,7 +131,10 @@ body>main.fond>p {
 
 .marge-titres {
     background : linear-gradient(#364AE0, #2814DD);
-    padding-top : 4px;
+    padding-top : 5px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 
@@ -150,6 +159,7 @@ div.marge-basse3 {
     padding-top : 19px;
     width: 315px;
     margin-bottom: 100px;
+
 }
 
 p.gris {
@@ -180,7 +190,11 @@ div.tweets {
     padding-bottom: 80px;
 
 
+}
 
+a.tweets {
+    text-decoration: none;
+    color: black;
 }
 
 div.mentions.module-footer {
@@ -221,6 +235,9 @@ footer>div.mentions.module-footer>p {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 10px;
+    font-family: 'Play', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 
 .contact-mmi a{

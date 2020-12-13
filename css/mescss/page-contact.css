@@ -23,6 +23,9 @@ footer {
     height: 20px;
     width: 280px;
     margin-left: -18px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    font-size: 18px;
 }
 
 .intertitre-2 {
@@ -35,6 +38,9 @@ footer {
     height: 20px;
     width: 280px;
     margin-left: -18px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    font-size: 18px;
 }
 
 
@@ -46,8 +52,9 @@ footer {
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
     border-top-width: 15px;
-    border-bottom-width: 12px;
-    margin: -6px;
+    border-bottom-width: 14px;
+    margin-left: -5px;
+    margin-bottom: -8px;
 
 }
 
