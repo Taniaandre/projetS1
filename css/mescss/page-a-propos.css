@@ -1,0 +1,62 @@
+html {
+    height: 1443px;
+    background-color: #192DB7;
+}
+
+.gradient {
+    border-image-source: linear-gradient(to right, #8E7AEB, #00F9DE);
+}
+
+.intertitres {
+    display: inline-block;
+    background: linear-gradient(to right, #576BFF, #8996F5);
+    border: 1px solid #4525E8;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 3px;
+    padding-left: 15px;
+    height: 20px;
+    width: 280px;
+    margin-left: -18px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #52009A;
+    font-size: 18px;
+}
+
+.triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 35px solid #231BE5;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-top-width: 15px;
+    border-bottom-width: 14px;
+    margin-left: -5px;
+    margin-bottom: -8px;
+
+}
+
+main {
+    font-size: 18px;
+    color: white;
+    font-family: 'Play', sans-serif;
+    margin: 10px;
+}
+
+.fond-triangles {
+    background-image: url(../img/triangles-a-propos.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+main>ul>li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 0;
+}
+
+footer {
+
+}
