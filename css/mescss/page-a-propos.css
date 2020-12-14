@@ -62,6 +62,11 @@ ul.autres-projets {
     list-style-type: none;
 }
 
+ul.autres-projets>li>a {
+    text-decoration: none;
+    color: white;
+}
+
 
 ul.autres-projets>li::before {
     content: "\002B28";
