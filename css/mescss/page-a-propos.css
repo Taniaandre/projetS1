@@ -55,15 +55,15 @@ main>ul>li{
     padding-bottom: 10px;
     padding-top: 10px;
     margin-left: 0;
-    list-style: none;
+
 }
 
-li::before {
-    content: "";
-    color: white;
+ul.autres-projets {
+    list-style-type: none;
 }
 
-li::before {
+
+ul.autres-projets>li::before {
     content: "\002B28";
     display: inline-block;
     width: 1em;
