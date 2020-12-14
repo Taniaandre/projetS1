@@ -77,13 +77,13 @@ form {
 form>input#Prenom {
     width: 100px;
     float: left;
-
+    margin-top: 4px;
 }
 
 form>input#Nom {
     width: 100px;
     float: right;
-    margin-top: -13px;
+    margin-top: -14px;
     margin-right: 25px;
 }
 
