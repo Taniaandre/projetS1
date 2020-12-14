@@ -60,11 +60,13 @@ main>ul>li{
 
 li::before {
     content: "";
+    color: white;
 }
 
 li::before {
     content: "\002B28";
     display: inline-block;
     width: 1em;
-    margin-left: -1em
+    margin-left: -1em;
+    color: white;
 }
