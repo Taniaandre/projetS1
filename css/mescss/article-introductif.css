@@ -18,10 +18,9 @@ body>div.haut-de-page>img {
 
 .titre-du-bandeau {
     text-align: center;
-    font-size: 14px;
-    margin-left: -120px;
-    margin-top: 20px;
-
+    font-size: 15px;
+    margin-left: -124px;
+    margin-top: 18px;
     color: #00F9DE;
     font-family: 'Orbitron', sans-serif;
 
@@ -74,7 +73,7 @@ body>div.haut-de-page>div.encadre-chapo {
 }
 
 body>div.haut-de-page>div.encadre-chapo>p {
-    margin: 12px;
+    margin: 9px;
     font-size: 14px;
     text-align: center;
     font-family: 'Play', sans-serif;
