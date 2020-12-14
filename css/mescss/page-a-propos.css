@@ -55,8 +55,16 @@ main>ul>li{
     padding-bottom: 10px;
     padding-top: 10px;
     margin-left: 0;
+    list-style: none;
 }
 
-footer {
+li::before {
+    content: "";
+}
 
+li::before {
+    content: "\002B28";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
 }
