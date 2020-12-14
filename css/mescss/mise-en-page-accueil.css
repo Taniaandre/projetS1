@@ -6,15 +6,23 @@ body>header>h1>.logo>a {
     text-indent: -9999px;
     background-repeat: no-repeat;
     background-position: center;
-    padding-right: 5px;
+    padding-right: 0;
+
 
 }
 
 .infos {
     float: left;
-    width: 38px;
-    height: 38px;
     margin: 5px;
+    border-right: 1px solid #4816BB;
+    height: 40px;
+    padding-right: 5px;
+
+}
+
+img.infos{
+    width: 31px;
+    height: 31px;
 
 }
 
