@@ -67,6 +67,11 @@ ul.autres-projets>li>a {
     color: white;
 }
 
+cite {
+    text-decoration: underline;
+    font-style: normal;
+}
+
 
 ul.autres-projets>li::before {
     content: "\002B28";
